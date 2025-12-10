@@ -1,0 +1,101 @@
+body {
+    background: linear-gradient(to bottom right, #ffd6e7, #ffffff);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #ff8fcf;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    box-shadow: 0 0 10px pink;
+}
+.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    margin-top: 40px;
+}
+.title {
+    font-size: 36px;
+    color: #ff008c;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 20px;
+    color: #444;
+}
+
+/* MCQ */
+.page-title {
+    color: #ff008c;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.mcq-box {
+    background: #ffe6f4;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px pink;
+}
+.mcq-btn {
+    display: block;
+    width: 100%;
+    background: #ff8fcf;
+    border: none;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+/* BUTTON */
+.btn {
+    padding: 10px 20px;
+    background: #ff008c;
+    color: white !important;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+/* Surprise hearts */
+.heart {
+    position: fixed;
+    bottom: 20px;
+    animation: floatUp 2s linear forwards;
+    font-size: 35px;
+}
+@keyframes floatUp {
+    0% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-150px); }
+}
+
+.surprise-box {
+    background: #ffe6f4;
+    padding: 25px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(255, 0, 150, 0.3);
+}
+.quote {
+    font-weight: bold;
+    color:#ff008c;
+    margin-top: 15px;
+}
